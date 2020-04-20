@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_dark"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:hint="Please Enter temperature in Celcius"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:singleLine="true"
+        android:inputType="numberDecimal"
+        android:background="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:text="Convert" />
+
+</LinearLayout>
